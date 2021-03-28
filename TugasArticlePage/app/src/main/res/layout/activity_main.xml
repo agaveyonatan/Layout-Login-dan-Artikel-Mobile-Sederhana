@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F8F8F8">
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cara Membuat WordPress (Tutorial Lengkap)"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/IV1"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/wordpress"
+        android:layout_below="@id/TV1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source : Unsplash - Web Factory"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/IV1"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/TV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WordPress adalah CMS atau platform pembuatan website paling populer di dunia. Lebih dari 30 persen website di dunia dibuat menggunakan WordPress. WordPress bisa menjadi begitu populer karena kemudahan penggunaan dan fitur-fiturnya yang lengkap."
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/TV2"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/TV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengguna WordPress tidak terbatas pada blogger pribadi saja. Banyak perusahaan besar yang mempercayakan WordPress sebagai platform pembuatan websitenya. SONY Music, Bata, Mercedes Benz, The New York Times Company, dan The Walt Disney adalah beberapa contoh perusahaan ternama yang menggunakan WordPress."
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/TV3"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/TV5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WordPress.com VS WordPress.org"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/TV4"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/TV6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jika menggunakan WordPress.com, Anda tidak perlu pusing-pusing mengeluarkan uang untuk hosting dan domain untuk website karena sudah disediakan langsung dari WordPress secara gratis."
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/TV5"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
